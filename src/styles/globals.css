@@ -1,15 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* :root{
+:root{
   background-color: black;
-  margin: 7rem 3rem;
+  margin: 4rem 3rem;
 }
+
 body{
   height: 100%;
   overflow: hidden;
   margin-bottom:7rem;
-} */
+}
 
 
 

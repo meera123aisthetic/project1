@@ -65,8 +65,8 @@ export default function Home() {
 }
 
 .img-large{
-  width:100vw;
-  heigth:50vh;
+  width:70vw;
+  heigth:100vh;
   margin:right:10px;
   background-image:url("image1.png");
   background-repeate:no-repeate;
@@ -77,15 +77,17 @@ export default function Home() {
   margin:10px;
   position-relative;
   transition: width 0.3s ease-in-out;
+  border-radius:7%;
 }
 .img-shrink {
-  width:calc(50vw / 3);
+  width:calc(30vw / 3);
   height:100vh
   transform:rotate(270deg);
+  border-radius:7%;
   }
 
 .img-small{
-  width:calc(50vw / 3);
+  width:calc(30vw / 3);
   heigth:100vh;
   background-image:url("image1.png");
   background-repeate:no-repeate;
@@ -96,9 +98,11 @@ export default function Home() {
   margin:10px;
   position:relative;
   transition: width 0.3s ease-in-out;
+  border-radius:7%;
 }
 .img-expand {
-  width:50vw;
+  width:70vw;
+  border-radius:7%;
 }
 .text1{
   color:white;
